@@ -20,14 +20,14 @@ function App() {
     ]))
   } 
   return (
-    <Context>
       <HashRouter>
-        <Layout >
-          <Routes />  
-        </Layout>
-        <ProyectDetail  />    
+        <Context>
+          <Layout >
+            <Routes />  
+          </Layout>
+          <ProyectDetail  />    
+        </Context>
       </HashRouter>
-    </Context>
   );
 }
 
