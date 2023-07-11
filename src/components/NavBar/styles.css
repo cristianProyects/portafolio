@@ -1,0 +1,42 @@
+.window-nav{
+    border-right: 1px solid rgb(0, 0, 0);
+    width: 280px;
+    height: 666px;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-image: linear-gradient(to bottom, #6be89b, #0076a5) 1;
+    box-shadow: 10px 0px 12px -8px rgba(0,0,0,0.54);
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+.nav-list{
+    margin-top: 5px;
+    /* padding: 20px 50px; */
+}
+.list-item{
+    list-style: none;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 0 20px;
+}
+.item-icon{
+    width: 30px;
+}
+.item-title{
+    color: black;
+}
+.blue{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.active{
+    color: rgb(0, 213, 255);
+    font-weight: bold;
+}
+.divider{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to right, #6be89b, #0076a5) 1;
+}

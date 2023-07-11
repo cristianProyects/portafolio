@@ -1,0 +1,165 @@
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    animation: fadeIn 1s ease;
+    
+}
+.modal-close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    animation: close 1s ease;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+}
+@keyframes close {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+.document{
+    /* #50E6FF */
+    background-color: #1893D6;
+    position: absolute;
+    min-width: 520px;
+    max-width: 30%;
+    height: 90%;
+    border-radius: 15px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.document-header{
+    padding: 0 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #50E6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.document-content{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 200px 1fr 1fr;
+    padding: 20px;
+    gap: 10px;
+}
+.content-image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+.image-source{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.content-information{
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.information-title{
+    width: 100%;
+    text-align: center;
+}
+.information-description{
+    width: 100%;
+    text-align: justify;
+}
+.information-type{
+    width: 100%;
+    text-align: left;
+}
+.content-knowladges{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+    overflow-y: auto;
+}
+.knowladges-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.document-footer{
+    width: 100%;
+    height: 100%;
+    background-color: #50E6FF;
+}
+.btn-close{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.info-icon{
+    width: 50px;
+}
+
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.content-knowladges::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.content-knowladges::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.content-knowladges::-webkit-scrollbar-button:increment,.content-knowladges::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.content-knowladges::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.content-knowladges::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.content-knowladges::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}

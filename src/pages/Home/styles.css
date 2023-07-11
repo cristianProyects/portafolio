@@ -1,0 +1,40 @@
+.home{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 300px 1fr;
+    overflow-y: auto;
+}
+.home-presentation{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.presentation-image{
+    width: 200px;
+    border-radius: 50%;
+}
+.presentation-name{
+    width: 100%;
+    text-align: center;
+}
+.presentation-description{
+    text-align: center;
+}
+.intructions-title{
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px;
+}
+.instructions-paragraph{
+    padding: 0 50px;
+    text-align: justify;
+}
+.instructions-list{
+    padding: 0 50px;
+}

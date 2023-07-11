@@ -1,0 +1,28 @@
+.me{
+    width: 100%;
+    height: 96%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    overflow-y: auto;
+    padding: 20px;
+}
+.me-file-preview{
+    border-left: 1px solid rgb(238, 238, 238);
+    display: grid;
+    /* justify-content: center; */
+    grid-template-rows: 30px 1fr;
+    gap: 20px;
+    overflow-y: auto;
+    padding: 20px 50px;
+}
+.preview-title{
+    text-align: center;
+}
+.content-paragraph{
+    text-align: justify;
+}
+.pointer{
+    cursor: pointer;
+}
+
+

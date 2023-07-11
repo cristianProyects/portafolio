@@ -1,0 +1,79 @@
+.knowladges{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    padding: 20px;
+}
+.knowladges-file{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    overflow-y: auto;
+}
+.file{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+.file-icon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-title{
+
+}
+.knowladges-list{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.list-table{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    text-align: center;
+}
+.table-info:hover{
+    background-color: #f4f4f4;
+}
+
+.info-icon{
+    padding: 5px;
+}
+.icon{
+    width: 50px;
+}
+.MQTT{
+    height: 50px;
+    background-color: blueviolet;
+}
+.knowladges-divider{
+    margin: 10px 0;
+    width: 100%;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to right, #6be89b, #0076a5) 1;
+    padding: 5px;
+    text-align: center;
+    /* background: rgb(107,232,155); */
+    /* background: linear-gradient(90deg, rgba(107,232,155,1) 0%, rgba(0,118,165,1) 70%); */
+    /* color: white; */
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -8px;
+    
+}
+
