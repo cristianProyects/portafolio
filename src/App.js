@@ -1,4 +1,4 @@
-import { BrowserRouter, useRoutes } from "react-router-dom";
+import { BrowserRouter, HashRouter, useRoutes } from "react-router-dom";
 
 import { Layout } from './components/Layout'
 import { Context } from "./context/context";
@@ -21,12 +21,12 @@ function App() {
   } 
   return (
     <Context>
-      <BrowserRouter>
+      <HashRouter>
         <Layout >
           <Routes />  
         </Layout>
         <ProyectDetail  />    
-      </BrowserRouter>
+      </HashRouter>
     </Context>
   );
 }
