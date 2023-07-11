@@ -21,12 +21,12 @@ function App() {
   } 
   return (
     <Context>
-      <BrowserRouter>
+      <HashRouter>
         <Layout >
           <Routes />  
         </Layout>
         <ProyectDetail  />    
-      </BrowserRouter>
+      </HashRouter>
     </Context>
   );
 }
