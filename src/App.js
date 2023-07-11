@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, useRoutes } from "react-router-dom";
+import {  HashRouter, useRoutes } from "react-router-dom";
 
 import { Layout } from './components/Layout'
 import { Context } from "./context/context";

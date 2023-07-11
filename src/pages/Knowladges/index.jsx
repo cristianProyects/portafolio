@@ -4,7 +4,7 @@ import './styles.css'
 import { ProviderContext } from '../../context/context'
 
 const Knowladges = () => {
-    const { infoFooter, setInfoFooter} = useContext(ProviderContext)
+    const {  setInfoFooter} = useContext(ProviderContext)
     const contetxt = useContext(ProviderContext);
     const [ infromation, setInformation ] = useState(null);
     const [ title, setTitle ] = useState(null);

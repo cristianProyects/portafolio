@@ -24,7 +24,7 @@ const InfoModalDetail = (  ) => {
         <article className='document'>
             <header className='document-header'>
                 <div className='header-btn close' onClick={()=>{closeDocument()}}>
-                  <img src={close} className='btn-close'/>
+                  <img src={close} className='btn-close' alt=''/>
                 </div>
                 <h3 className='header-title'>DOCUMENTO - {infoModal.title}</h3>
             </header>
@@ -43,7 +43,7 @@ const InfoModalDetail = (  ) => {
                   </span>
                   <span className='information-type'>
                     {
-                      infoModal.link !='' && (
+                      infoModal.link !=='' && (
                         <>
                           <strong>
                             Enlace al proyecto:  
