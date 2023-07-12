@@ -26,6 +26,7 @@ import php from "../icons/php.svg";
 import terminal from "../icons/terminal.svg";
 import postman from "../icons/postman.svg";
 import bootsrap from "../icons/bootstrap.svg";
+import ecommerce from "../icons/ecommerce.svg";
 
 
 const ProviderContext = createContext();
@@ -33,7 +34,7 @@ const ProviderContext = createContext();
 const proyects = [
     {
         title:"Ecommerce (Personal)",
-        img:mera,
+        img:ecommerce,
         type:'Proyecto desde comienzo absoluto',
         link:'',
         text:"Es un proyecto personal enfocado a la venta de elotes  y esquites en una etapa de prueba, dado que falta agregar el metodo de pago en linea para ya pasarlo a produccion. La idea principal es aplicar todos mis conocimientos de backend como: middlewares, autentificacion con jwt y passport, cors, API REST, docker y validaciones por mencioanar algunos",
