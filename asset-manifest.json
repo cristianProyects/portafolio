@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.5a784ef2.css",
-    "main.js": "/portafolio/static/js/main.fba4027d.js",
+    "main.js": "/portafolio/static/js/main.957fb14c.js",
     "static/media/shop_mera.PNG": "/portafolio/static/media/shop_mera.11b457fc8bf35ce7d3f7.PNG",
     "static/media/agro-mera.PNG": "/portafolio/static/media/agro-mera.7d69848ce21190210417.PNG",
     "static/media/cartera.png": "/portafolio/static/media/cartera.822baa2a68d50ebfefac.png",
@@ -12,6 +12,7 @@
     "static/media/mysql.svg": "/portafolio/static/media/mysql.c9286640a470004f40f86d07817e890e.svg",
     "static/media/carpeta-contacto.svg": "/portafolio/static/media/carpeta-contacto.3f6461d9d1a8ec8aff621b5b73e57816.svg",
     "static/media/postgresql.svg": "/portafolio/static/media/postgresql.6d3129da3f1900ded5afd8286e8e73ef.svg",
+    "static/media/ecommerce.svg": "/portafolio/static/media/ecommerce.40db582bfa0234ebe7448f983285a856.svg",
     "static/media/carpeta-conocimientos-lenguajes.svg": "/portafolio/static/media/carpeta-conocimientos-lenguajes.ca80c7faf8705d8e64f4fcedec5b73f0.svg",
     "static/media/mqtt-logo-transp.svg": "/portafolio/static/media/mqtt-logo-transp.2098c25e854ac9b4faf2be6d8b404f17.svg",
     "static/media/whatsapp.svg": "/portafolio/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
@@ -46,10 +47,10 @@
     "static/media/terminal.svg": "/portafolio/static/media/terminal.82aad7c2478dae0f3c3c74492ad8c028.svg",
     "static/media/vue.svg": "/portafolio/static/media/vue.794e612aa9ab0124da8efae55eef549a.svg",
     "main.5a784ef2.css.map": "/portafolio/static/css/main.5a784ef2.css.map",
-    "main.fba4027d.js.map": "/portafolio/static/js/main.fba4027d.js.map"
+    "main.957fb14c.js.map": "/portafolio/static/js/main.957fb14c.js.map"
   },
   "entrypoints": [
     "static/css/main.5a784ef2.css",
-    "static/js/main.fba4027d.js"
+    "static/js/main.957fb14c.js"
   ]
 }
