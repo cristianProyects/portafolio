@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.5a784ef2.css",
-    "main.js": "/portafolio/static/js/main.957fb14c.js",
+    "main.js": "/portafolio/static/js/main.888cae03.js",
     "static/media/shop_mera.PNG": "/portafolio/static/media/shop_mera.11b457fc8bf35ce7d3f7.PNG",
     "static/media/agro-mera.PNG": "/portafolio/static/media/agro-mera.7d69848ce21190210417.PNG",
     "static/media/cartera.png": "/portafolio/static/media/cartera.822baa2a68d50ebfefac.png",
@@ -47,10 +47,10 @@
     "static/media/terminal.svg": "/portafolio/static/media/terminal.82aad7c2478dae0f3c3c74492ad8c028.svg",
     "static/media/vue.svg": "/portafolio/static/media/vue.794e612aa9ab0124da8efae55eef549a.svg",
     "main.5a784ef2.css.map": "/portafolio/static/css/main.5a784ef2.css.map",
-    "main.957fb14c.js.map": "/portafolio/static/js/main.957fb14c.js.map"
+    "main.888cae03.js.map": "/portafolio/static/js/main.888cae03.js.map"
   },
   "entrypoints": [
     "static/css/main.5a784ef2.css",
-    "static/js/main.957fb14c.js"
+    "static/js/main.888cae03.js"
   ]
 }
